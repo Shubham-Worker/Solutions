@@ -142,12 +142,12 @@ public class Solution1
     // Driver Code 
     public static void main(String[] args)  
     { 
-        Point polygon1[] = {new Point(1, 0), 
+        Point polygon1[] = {new Point(1, 0),       //Polygon 1
                             new Point(8, 3),  
                             new Point(8, 8),  
                             new Point(1, 5)}; 
         int n = polygon1.length; 
-        Point p = new Point(3, 5); 
+        Point p = new Point(3, 5);    //Point 1 is tested
         if (isInside(polygon1, n, p)) 
         { 
             System.out.println("Yes"); 
@@ -157,10 +157,10 @@ public class Solution1
             System.out.println("No"); 
         } 
         
-        Point polygon2[] = {new Point(-3, 2),  
+        Point polygon2[] = {new Point(-3, 2),       //Polygon 2
             new Point(-2, -0.8), new Point(0, 1.2),
             new Point(2.2, 0), new Point(2,4.5)}; 
-        p = new Point(0, 0); 
+        p = new Point(0, 0);                        //Point 2 is tested
         n = polygon2.length; 
         if (isInside(polygon2, n, p))  
         { 
